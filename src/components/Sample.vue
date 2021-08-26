@@ -1,5 +1,8 @@
 <template>
   <div id="app">
+    <v-card
+  elevation="2"
+>
     <div>相手：{{ enemyHand }}</div>
 
     <v-btn @click="fight('goo')">グー</v-btn>
@@ -7,6 +10,7 @@
     <v-btn @click="fight('paa')">パー</v-btn>
 
     <div>結果：{{ result }}</div>
+    </v-card>
   </div>
 </template>
 
