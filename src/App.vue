@@ -4,6 +4,7 @@
 
     <router-link to="/">Home</router-link>
     <router-link to="Sample">Sample</router-link>
+    <router-link to="Music">音楽検索</router-link>
 
 
     

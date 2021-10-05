@@ -7,8 +7,10 @@ let wrapper;
 const localVue = createLocalVue()
 let vuetify
 
+
 beforeEach(() => {
   vuetify = new Vuetify()
+ 
 
   wrapper = mount(Sample,{
     localVue,
