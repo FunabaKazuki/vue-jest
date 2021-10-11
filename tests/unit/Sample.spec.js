@@ -1,5 +1,5 @@
 import Vue from "vue";
-import Sample from "@/components/sample";
+import Sample from '@/components/sample';
 import { mount,createLocalVue } from "@vue/test-utils";
 import Vuetify from 'vuetify'
 
