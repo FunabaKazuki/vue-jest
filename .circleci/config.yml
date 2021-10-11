@@ -14,7 +14,7 @@ jobs:
       - run:
           name: "npm install"
           #command: "npm install"
-          #command: "echo install"
+          command: "echo install"
       #- run: npm test
       - run: pwd
 
