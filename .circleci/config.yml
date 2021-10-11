@@ -16,7 +16,7 @@ jobs:
           #command: "npm install"
           command: "echo install"
       #- run: npm test
-      - run: pwd
+      - run: ls
 
 workflows:
   say-hello-workflow:
