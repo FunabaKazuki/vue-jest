@@ -2,7 +2,7 @@
 version: 2.1
 
 jobs:
-  say-hello:
+  unit-test:
 
     docker:
       - image: cimg/node:16.10.0
@@ -15,10 +15,10 @@ jobs:
           name: "npm install"
           command: "npm install"
           #command: "echo install"
-      - run: echo hello
+      - run: npm test
 
 
 workflows:
   say-hello-workflow:
     jobs:
-      - say-hello
+      - unit-test
