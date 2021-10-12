@@ -17,8 +17,8 @@ jobs:
           #command: "echo install"
       - run: npm test
 
-      #- store_test_results:
-      #   path: reports
+      - store_test_results:
+         path: reports/jest
       #- store_artifacts:
       #   path: reports
       #- store_artifacts:
