@@ -16,15 +16,15 @@ jobs:
           command: "npm install"
           #command: "echo install"
       - run: npm test
-      
+
       - store_test_results:
-          path: reports
-      - store_artifacts:
          path: reports
-      - store_artifacts:
-           path: coverage
+      #- store_artifacts:
+      #   path: reports
+      #- store_artifacts:
+      #   path: coverage
 
 workflows:
-  say-hello-workflow:
+  unit-test-workflow:
     jobs:
       - unit-test
