@@ -15,7 +15,7 @@ it('fetches async when a button is clicked', done => {
     const wrapper = shallowMount(Foo)
     wrapper.find('button').trigger('click')
     wrapper.vm.$nextTick(() => {
-      expect(wrapper.vm.value).toBe('vaalue')
+      expect(wrapper.vm.value).toBe('value')
       done()
     })
   })

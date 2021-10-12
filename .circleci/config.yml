@@ -21,8 +21,8 @@ jobs:
          path: reports/jest
       #- store_artifacts:
       #   path: reports
-      #- store_artifacts:
-      #   path: coverage
+      - store_artifacts:
+         path: coverage
 
 workflows:
   unit-test-workflow:
