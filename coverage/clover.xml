@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1633942707111" clover="3.2.0">
-  <project timestamp="1633942707111" name="All files">
+<coverage generated="1634199746516" clover="3.2.0">
+  <project timestamp="1634199746516" name="All files">
     <metrics statements="58" coveredstatements="24" conditionals="14" coveredconditionals="14" methods="14" coveredmethods="10" elements="86" coveredelements="48" complexity="0" loc="58" ncloc="58" packages="6" files="11" classes="11"/>
     <package name="src">
       <metrics statements="12" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
@@ -33,17 +33,17 @@
       <file name="Sample.vue" path="C:\Users\81909\OneDrive\デスクトップ\vueアプリサンプル\sampleapp\src\components\Sample.vue">
         <metrics statements="12" coveredstatements="12" conditionals="14" coveredconditionals="14" methods="2" coveredmethods="2"/>
         <line num="23" count="2" type="stmt"/>
-        <line num="33" count="14" type="stmt"/>
-        <line num="34" count="14" type="stmt"/>
-        <line num="38" count="14" type="cond" truecount="2" falsecount="0"/>
-        <line num="39" count="6" type="stmt"/>
-        <line num="40" count="8" type="cond" truecount="4" falsecount="0"/>
-        <line num="41" count="1" type="stmt"/>
-        <line num="42" count="7" type="cond" truecount="4" falsecount="0"/>
+        <line num="33" count="16" type="stmt"/>
+        <line num="34" count="16" type="stmt"/>
+        <line num="38" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="39" count="4" type="stmt"/>
+        <line num="40" count="12" type="cond" truecount="4" falsecount="0"/>
+        <line num="41" count="3" type="stmt"/>
+        <line num="42" count="9" type="cond" truecount="4" falsecount="0"/>
         <line num="43" count="1" type="stmt"/>
-        <line num="44" count="6" type="cond" truecount="4" falsecount="0"/>
-        <line num="45" count="2" type="stmt"/>
-        <line num="47" count="4" type="stmt"/>
+        <line num="44" count="8" type="cond" truecount="4" falsecount="0"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="47" count="7" type="stmt"/>
       </file>
       <file name="axiosSample.vue" path="C:\Users\81909\OneDrive\デスクトップ\vueアプリサンプル\sampleapp\src\components\axiosSample.vue">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>

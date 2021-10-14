@@ -7,15 +7,13 @@ jobs:
     docker:
       - image: cimg/node:16.10.0
 
-
     steps:
       - checkout
       - run:
           name: "npm install"
           command: "npm install"
-          #command: "echo install"
       - run: npm test
-
+#aa
       - store_test_results:
          path: reports/jest
   
